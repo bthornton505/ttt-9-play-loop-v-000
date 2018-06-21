@@ -39,7 +39,6 @@ end
 
 def play(board)
   until board == 9 
-    board.push += 1 
     turn(board)
   break
 end 
