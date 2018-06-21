@@ -38,16 +38,6 @@ end
 # Define your play method below
 
 def play(board)
-  loop do 
-    turn(board)
-    turn(board)
-    turn(board)
-    turn(board)
-    turn(board)
-    turn(board)
-    turn(board)
-    turn(board)
-    turn(board)
-  break
-end 
+  turn = turn(board)
+  
 end 
