@@ -40,6 +40,14 @@ end
 def play(board)
   until board == 9 
     turn(board)
+    turn(board)
+    turn(board)
+    turn(board)
+    turn(board)
+    turn(board)
+    turn(board)
+    turn(board)
+    turn(board)
   break
 end 
 end 
