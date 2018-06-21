@@ -43,6 +43,7 @@ def play(board)
     turn += 1 
     turn(board)
     if turn >= 9 
-      
-  
+      break
+    end 
+  end 
 end 
