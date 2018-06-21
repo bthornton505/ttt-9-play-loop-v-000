@@ -44,3 +44,12 @@ def play(board)
       turn += 1 
   end 
 end 
+
+# ALTERNATE LOOP FOR PLAY(BOARD)
+# loop do
+#    turn += 1 
+#    turn(board)
+#    if turn >= 9 
+#      break
+#    end 
+#  end 
